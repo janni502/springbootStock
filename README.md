@@ -4,9 +4,9 @@ Assignment
 ## Usage
 
 Set up the database and user access:
-    create database db_example
-    create user 'springuser'@'%' identified by 'ThePassword'
-    grant all on db_example.* to 'springuser'@'%';
+    - create database db_example
+    - create user 'springuser'@'%' identified by 'ThePassword'
+    - grant all on db_example.* to 'springuser'@'%';
 
     - mvn clean package
     - mvn clean install
